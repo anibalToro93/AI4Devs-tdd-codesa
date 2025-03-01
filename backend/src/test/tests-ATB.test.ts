@@ -71,7 +71,7 @@ describe('Candidate Registration', () => {
     test('should reject when email is missing', async () => {
       const invalidCandidate = {
         firstName: 'John',
-        lastName: 'Doe'
+        lastName: 'Doe' 
       };
 
       await expect(addCandidate(invalidCandidate))
